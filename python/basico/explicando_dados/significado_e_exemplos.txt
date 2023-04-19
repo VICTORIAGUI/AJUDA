@@ -1,0 +1,65 @@
+⤷INT: É usado para receber um número inteiro (sem vírgula).
+ex:
+
+(nome da variável) (vai receber) (um número inteiro) (leia)
+
+a =  int(input('Digite um número: '))
+b = int(input('Digite um número: '))
+c = a + b
+print(c)
+
+
+
+
+
+⤷STR: É uma sequência de caracteres imutáveis. Um texto.
+
+(nome da variável) (vai receber) (um texto) (leia) 
+
+a = str(input('Escreva seu nome: '))
+print(a)
+
+
+
+
+⤷FLOAT: É um número flutuante, ou seja um número quebrado (com vírgula).
+OBS: O PYTHON NÃO RECEBE VÍRGULA, APENAS PONTO.
+
+ex: 
+
+(nome da variável) (vai receber) (um número flutuante) (leia)
+
+a = int(input('Digite um inteiro: '))
+b = float(input('Digite um flutuante '))
+c = a + b
+print(c)
+
+
+
+
+⤷BOOL: É um tipo de verificação de verdadeiro (true) ou falso (false). Geralmente usado na verificação de expressões racionais e logicas. 
+
+ex: 
+
+a = 10>15
+print(a)
+
+O retorno vai ser negativo (false).
+
+ex: 
+b = 10<15
+print(b)
+O retorno vai ser verdadeiro (true).
+
+Verificando se uma variável tipo str é verdadeira.
+ex:
+
+mes = 'Fevereiro'
+print(bool(mes))
+
+O retorno vai ser verdadeira porque toda string que tem um valor é verdadeiro.
+
+vazio = input()
+print(bool(vazio))
+
+O retorno vai ser falso porque toda string vazia é falso .

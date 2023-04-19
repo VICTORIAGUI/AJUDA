@@ -1,0 +1,43 @@
+O Python é uma linguagem de programação interpretada. Assim, para programar e rodar um sistema escrito nessa linguagem é necessária a utilização de um interpretador. Esse recurso lê o código fonte, o analisa e interpreta as instruções em tempo real.
+
+Assim como em outras linguagens, o Python pode manipular variáveis básicas como strings (palavras ou cadeias de caracteres), inteiros e reais (float). 
+
+Um comando é uma instrução que o interpretador Python pode executar. Quando um comando é digitado no console, o Python o executa e mostra seu resultado, caso haja algum valor a ser exibido. O resultado do comando print, por exemplo, é a impressão na tela do conteúdo que lhe é informado.
+
+
+
+
+
+ENTRADA E SAIDA DE DADOS:
+
+ Todo programa possui três componentes básicos: uma entrada específica, uma sequência de regras (algoritmo) a serem executadas sobre essa entrada, e uma saída.
+ Entrada é todo dado que entra no computador input(), saida é tudo que é exibido na tela do computador print().
+
+ENTRADA:
+
+Para ler dados digitados pelo usuário durante a execução do programa, utilizamos a função input(). O exemplo abaixo ilustra o uso dessa função:
+
+print("Digite seu nome:")
+nome = input()
+print("Bem-vindo, ", nome)
+
+IMPRIME:
+Digite seu nome:
+NOME
+Bem-vindo,  NOME
+
+Importante lembrar que que a função input() só lê strings. Para que um número seja lido é necessário a conversão. 
+
+
+
+SAIDA:
+
+A função para imprimir dados em Python é a função print().
+
+Ela é responsável por mostrar valores em seu terminal:
+
+print('Olá Mundo')
+
+Imprime a string no terminal:
+
+Olá Mundo
