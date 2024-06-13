@@ -4,7 +4,7 @@
 // Não pode conter espaços ou traços 
 // Utilizamos cameCase (ex: nomeCompleto)
 // Não podemos redeclarar variáveis com LET
-// Não utilize VAR, UTILIZE LET. 
+// Não utilize VAR, UTILIZE LET. *Correção: Não é necessariamente errado usar var, consulte o cenário para se certificar de qual tipo terá o melhor desempenho no código.
 
 console.log('João nasceu em 1984.');
 console.log('Em 2000 João conheceu Maria.');
